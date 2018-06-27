@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Свойство display</title>
+		<meta name="description" content="Изучение значений свойства display">
+		<meta name="author" content="Аббас Гусенов">
+		<link rel="stylesheet" href="styles.css?v=1.0">
+	</head>
+	<body>
+		<!-- block-level элементы-->
+		<!-- display: block; -->
+
+		<div>div</div>
+		<p>p</p>
+		<form>
+			Форма:<br>
+			<input type="text" name="textinput"><br>
+		</form>
+
+		<!-- HTML5 -->
+		<article>article</article>
+		<article>
+			<header>header</header>
+			<section>section</section>
+			<section>section</section>
+			<footer>footer</footer>
+		</article>
+
+		<!--------------------------------------------------------------------->
+
+		<!-- inline элементы -->
+		<!-- display: inline; -->
+		<span>HTML <span>span</span> tag</span>
+		<a>HTML a tag</a>
+
+		<!--------------------------------------------------------------------->
+
+		<!-- display: none; -->
+		<script></script>
+		
+		<!--------------------------------------------------------------------->
+		
+		<p>p № 1</p>
+		<p style="visibility: hidden">p № 2</p>
+		<p>p № 3</p>
+		<p style="display: none">p № 4</p>
+		<p>p № 5</p>
+		
+		<!--------------------------------------------------------------------->
+		
+		<ul>
+			<li>li № 1</li> <!-- display: list-item; -->
+			<li style="display: inline">li № 2</li>
+			<li style="display: inline">li № 3</li>
+			<li style="display: inline">li № 4</li>
+			<li>li № 5</li> <!-- display: list-item; -->
+		</ul>
+		
+		<!--------------------------------------------------------------------->
+		
+		<table>  <!-- display: table; -->
+			<caption></caption>
+			<thead>
+				<tr>
+					<th scope="col">Наименование объекта</th>
+					<th scope="col">Свойство № 1</th>
+					<th scope="col">Свойство № 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td scope="row">Объект № 1</td>
+					<td>11</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td scope="row">Объект № 2</td>
+					<td>21</td>
+					<td>22</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td scope="row">Итого</td>
+					<td>32</td>
+					<td>34</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
+

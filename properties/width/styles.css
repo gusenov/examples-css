@@ -1,0 +1,29 @@
+#main {
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+/*
+
+All the margin properties can have the following values:
+ auto - the browser calculates the margin
+ length - specifies a margin in px, pt, cm, etc.
+ % - specifies a margin in % of the width of the containing element
+ inherit - specifies that the margin should be inherited from the parent element
+
+margin: 25px 50px 75px 100px;
+ top margin is 25px
+ right margin is 50px
+ bottom margin is 75px
+ left margin is 100px
+
+You can set the margin property to auto to horizontally center the element within its container.
+The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+*/

@@ -2,4 +2,5 @@
 
 - Чем отличаются block-level и inline элементы?
 - Что такое box модель?
+- Чем отличаются значения static, relative, fixed, absolute для свойства position? Как они работают в связке друг с другом?
 

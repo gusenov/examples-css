@@ -1,0 +1,16 @@
+article img {
+	float: right;
+	
+	width: 50%;
+	
+	min-width: 111px;
+	max-width: 444px;
+}
+
+article {
+	overflow: auto;
+	zoom: 1;  /* IE6 */
+
+	border: solid blue 1px;
+}
+

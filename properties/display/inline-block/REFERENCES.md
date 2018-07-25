@@ -1,0 +1,2 @@
+- [CSS - inline-block](http://learnlayout.com/inline-block.html)
+- [Cross-Browser Inline-Block | Mozilla Web Development](https://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/)

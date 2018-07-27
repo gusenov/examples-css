@@ -1,0 +1,3 @@
+- [CSS - column](http://learnlayout.com/column.html)
+- [Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/#search=column)
+- [CSS columns - desktop](https://quirksmode.org/css/columns/)

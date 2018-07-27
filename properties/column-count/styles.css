@@ -1,0 +1,15 @@
+.three-column {
+	padding: 1em;
+
+	-moz-column-count: 3;
+	-moz-colum-gap: 1em;
+
+	-webkit-column-count: 3;
+	-webkit-colum-gap: 1em;
+
+	column-count: 3;
+	column-gap: 1em;
+
+
+	border: solid blue 1px;
+}
